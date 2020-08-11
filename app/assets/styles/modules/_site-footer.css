@@ -1,0 +1,14 @@
+.site-footer{
+    text-align: center;
+    padding: 20px 0;
+    &__social-icons{
+        padding: 40px 0;
+    }
+    &__social-icons img{
+        background-color: $mainColor;
+        width: 50px;
+        height: 50px;
+        padding: 10px;
+        margin-right: 20px;
+    }
+}

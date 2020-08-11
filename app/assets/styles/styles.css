@@ -2,3 +2,11 @@
 @import 'base/_variables';
 @import 'base/_mixins';
 @import 'base/_global';
+@import 'modules/_flex.css';
+@import 'modules/_site-header.css';
+@import 'modules/_section-one.css';
+@import 'modules/_section-two.css';
+@import 'modules/_section-three.css';
+@import 'modules/_gallery.css';
+@import 'modules/_contact.css';
+@import 'modules/_site-footer.css';

@@ -1,0 +1,48 @@
+.section-one{
+    margin-top: 20px;
+    height: 60vh;
+
+&__content{
+    position: absolute;
+    top: 25%;  
+   color: whitesmoke;
+    max-width: 450px;
+    margin: 0 5%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+&__img{
+    width: 100%;
+}
+
+@mixin atSmall {
+  &__content{
+      top: 35%;  
+      margin: 0 15%;
+}  
+
+      
+}
+
+
+@mixin atMedium {
+    
+    &__img{
+        width: 62%;
+        margin-right: 20px;
+    }
+    &__content{
+        padding: 25px;
+        position: static;
+        background-color: $bgColorMain;
+        color: black;
+        margin: 0;
+        justify-content: space-between;
+        align-items: flex-start;
+      
+    }
+}
+
+
+}

@@ -1,0 +1,40 @@
+.section-two{
+    flex-direction: column;    
+    background-color: $mainColor;
+    margin-top: 20px;
+    padding: 50px 0;
+    text-align: center;
+    &__item{
+        margin-bottom: 40px;
+        padding-bottom: 50px;
+        border-bottom: $bgColorMain 1px dashed;
+       
+    }
+    &__item:nth-child(3){
+        padding: 0;
+        border: none;
+    }
+
+    &__item img{
+        width: 100px;
+        fill: #fff;
+        margin-bottom: 10px;
+        fill: #fff;
+
+    }
+    
+    @mixin atSmall {
+        flex-direction: row;
+        justify-content: space-around;
+        &__item p {
+            max-width: 200px;        
+        }
+
+        &__item{
+            border: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        
+    }
+}
